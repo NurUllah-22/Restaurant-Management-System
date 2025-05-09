@@ -1,0 +1,4 @@
+<TableOverview tables={tables} onSelect={handleSelectTable} />
+<OrderPanel order={selectedOrder} onRemove={handleRemoveItem} />
+<MenuItemList menu={menu} onAdd={handleAddItem} />
+<CheckoutModal total={calculateTotal()} onConfirm={checkout} onCancel={closeModal} />
