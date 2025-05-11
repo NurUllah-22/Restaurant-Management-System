@@ -5,26 +5,21 @@
         <div class="sidebar-header d-flex align-items-center">
           <div class="avatar"></div>
           <div class="title">
-            <h1 class="h5">Restaurant Owner</h1>
-            <p>Web Designer</p>
+            <h1 class="h5">Group 7</h1>
+            <p>Restaurant Owner</p>
           </div>
         </div>
         <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
         <ul class="list-unstyled">
-                <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
-                <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Food</a>
+                <li class="active"><a href="{{url('home')}}"> <i class="icon-home"></i>Home </a></li>
+                <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse">
+                   <i class="icon-windows"></i>Food</a>
                   <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                     <li><a href="{{url('add_food')}}">Add Food</a></li>
                     <li><a href="{{url('view_food')}}">View Food</a></li>
-                    <li><a href="#">Page</a></li>
                   </ul>
                 </li>
-                <li><a href="login.html"> <i class="icon-logout"></i>Login page </a></li>
-        </ul><span class="heading">Extras</span>
-        <ul class="list-unstyled">
-          <li> <a href="#"> <i class="icon-settings"></i>Demo </a></li>
-          <li> <a href="#"> <i class="icon-writing-whiteboard"></i>Demo </a></li>
-          <li> <a href="#"> <i class="icon-chart"></i>Demo </a></li>
-        </ul>
+                <li><a href="{{url('orders')}}"> <i class="icon-logout"></i>Orders</a></li>
+                <li><a href="{{url('reservation')}}"> <i class="icon-logout"></i>Reservations</a></li>
       </nav>
       <!-- Sidebar Navigation end-->

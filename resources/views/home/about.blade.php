@@ -6,10 +6,14 @@
                 <div class="row justify-content-center">
                     <div class="col-sm-8 py-5 my-5">
                         <h2 class="mb-4">About Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores doloremque quo perferendis, ut obcaecati harum, <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus iste,
-                        nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam voluptatum? <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas. Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.</p>
-                        <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores explicabo.</b></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi, reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                        <p>This is our CSE470 project. The title of the the project is an 
+                        "All You Need Restaurant Management System". Thanks to Food Hut for 
+                        the incredible opportunity.<br><br>This is a software that aims
+                        to assist the restaurant owners in their business by providing various features
+                        that are helpful in their day-to-day business.<br>It also aims to grow 
+                        the industry as a whole by modernising the businesses. And reducing the 
+                        headache inducing work that the owners need to undergo and focus more 
+                        on the business side of things.</p>
                     </div>
                 </div>
             </div>

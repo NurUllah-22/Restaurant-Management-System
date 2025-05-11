@@ -14,17 +14,17 @@
                     <h1>All Foods</h1>
                     <table>
                         <tr>
-                            <th>Food Title</th>
-                            <th>Food Details</th>
-                            <th>Price</th>
-                            <th>Food Image</th>
-                            <th>Delete</th>
-                            <th>Update</th>
+                            <th class="Food">Food Title</th>
+                            <th class="Food">Food Details</th>
+                            <th class="Food">Price</th>
+                            <th class="Food">Food Image</th>
+                            <th class="Food">Delete</th>
+                            <th class="Food">Update</th>
                         </tr>
                         @foreach ($data as $data)
                         <tr>
                             <td>{{$data->title}}</td>
-                            <td>{{$data->detail}}</td>
+                            <td">{{$data->detail}}</td>
                             <td>{{$data->price}}</td>
                             <td>
                                 <img width="150px" src="food_images/{{$data->image}}" alt="food image">

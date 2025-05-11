@@ -28,6 +28,18 @@ Route::get('/remove_cart/{id}', [HomeController::class,'remove_cart'])->name('re
 
 Route::post('/confirm_order', [HomeController::class,'confirm_order'])->name('confirm_order');
 
+Route::get('/orders', [AdminController::class,'orders'])->name('orders');
+
+Route::get('/on_the_way/{id}', [AdminController::class,'on_the_way'])->name('on_the_way');
+
+Route::get('/delivered/{id}', [AdminController::class,'delivered'])->name('delivered');
+
+Route::get('/cancelled/{id}', [AdminController::class,'cancelled'])->name('cancelled');
+
+Route::post('/book_table', [HomeController::class,'book_table'])->name('book_table');
+
+Route::get('/reservation', [AdminController::class,'reservation'])->name('reservation');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

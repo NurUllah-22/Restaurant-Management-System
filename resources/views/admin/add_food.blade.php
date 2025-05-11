@@ -3,6 +3,12 @@
     <head> 
         @include('admin.css')
         @include('admin.add_food_css')
+        <style>
+            .add_div_deg
+            {
+                padding: 10px;
+            }
+        </style>
     </head>
   <body>
     @include('admin.header')
@@ -12,23 +18,23 @@
             <div class="container-fluid">
                 <form action="{{url('upload_food')}}" method="POST" enctype="multipart/form-data">
                     @csrf
-                    <div class="div_deg">
+                    <div class="add_div_deg">
                         <label for="">Food Title</label>
                         <input type="text" name="title" required>
                     </div>
-                    <div class="div_deg">
+                    <div class="add_div_deg">
                         <label for="">Food Details</label>
                         <textarea name="details" cols="70" rows="5" required></textarea>
                     </div>
-                    <div class="div_deg">
+                    <div class="add_div_deg">
                         <label for="">Food Image</label>
                         <input type="file" name="img" required>
                     </div>
-                    <div class="div_deg">
+                    <div class="add_div_deg">
                         <label for="">Price</label>
                         <input type="text" name="price" required>
                     </div>
-                    <div class="div_deg">
+                    <div class="add_div_deg">
                         <input type="submit" value="Add Food" class='btn btn-warning'>
                     </div>
                 </form>

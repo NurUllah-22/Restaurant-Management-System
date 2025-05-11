@@ -55,15 +55,15 @@
             </ul>
         </div>
     </nav>
-    <br><br><br>
+    </br> </br> </br> </br>
     <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
-        <table>
+        <table class="cart">
             <tr>
-                <th>Food Title</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Food Image</th>
-                <th>Remove</th>
+                <th class="cart">Food Title</th>
+                <th class="cart">Price</th>
+                <th class="cart">Quantity</th>
+                <th class="cart">Food Image</th>
+                <th class="cart">Remove</th>
             </tr>
             <?php
                 $total_price = 0;
@@ -71,7 +71,7 @@
             @foreach ($data as $data)
             <tr>
                 <td>{{$data->title}}</td>
-                <td>{$data->price}</td>
+                <td>{{$data->price}}</td>
                 <td>{{$data->quantity}}</td>
                 <td>
                     <img width="150px" src="food_images/{{$data->image}}" alt="">
@@ -94,29 +94,21 @@
                 <label for="">Name</label>
                 <input type="text" name="name" value="{{Auth()->user()->name}}">
             </div>
-        </form>
-        <form action="" method="POST">
             <div class="div_deg">
                 <label for="">Email</label>
                 <input type="email" name="email" value="{{Auth()->user()->email}}">
             </div>
-        </form>
-        <form action="" method="POST">
             <div class="div_deg">
                 <label for="">Phone</label>
                 <input type="number" name="phone" value="{{Auth()->user()->phone}}">
             </div>
-            <form action="" method="POST">
             <div class="div_deg">
                 <label for="">Address</label>
                 <input type="text" name="address" value="{{Auth()->user()->address}}">
             </div>
-            <form action="" method="POST">
             <div class="div_deg">
                 <input class="btn btn-info" type="submit" value="Confirm Order">
             </div>
-        </form>
-        </form>
         </form>
     </div>
 </body>

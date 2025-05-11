@@ -5,27 +5,30 @@
             <div class="col-md-4 my-3 my-md-0">
                 <div class="testmonial-card">
                     <h3 class="testmonial-title">John Doe</h3>
-                    <h6 class="testmonial-subtitle">Web Designer</h6>
                     <div class="testmonial-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nobis eligendi, quaerat accusamus ipsum sequi dignissimos consequuntur blanditiis natus. Aperiam!</p>
+                        <p>The chicken burger was perfectly cooked with a crispy exterior and tender
+                             inside. I would highly recommend all of you to try it.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 my-3 my-md-0">
                 <div class="testmonial-card">
                     <h3 class="testmonial-title">Steve Thomas</h3>
-                    <h6 class="testmonial-subtitle">UX/UI Designer</h6>
                     <div class="testmonial-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minus obcaecati cum eligendi perferendis magni dolorum ipsum magnam, sunt reiciendis natus. Aperiam!</p>
+                        <p>The ambiance at Food Hut is nothing short of magical!
+                        The dim lighting and rustic decor transported us straight to Italy.
+                        Their hand-made ravioli was to die for, and the tiramisu was the best
+                        I've ever had. Highly recommend to anyone seeking authentic Italian flavors.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 my-3 my-md-0">
                 <div class="testmonial-card">
                     <h3 class="testmonial-title">Miranda Joy</h3>
-                    <h6 class="testmonial-subtitle">Graphic Designer</h6>
                     <div class="testmonial-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nam. Earum nobis eligendi, dignissimos consequuntur blanditiis natus. Aperiam!</p>
+                        <p>Their pasta dishes are perfectly executed, with rich, 
+                        savory sauces that take you straight to Italy. The pizza is 
+                        also a standout with a crisp, thin crust and fresh toppings.</p>
                     </div>
                 </div>
             </div>

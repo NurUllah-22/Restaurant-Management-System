@@ -4,6 +4,12 @@
         <base href="/public"> 
         @include('admin.css')
         @include('admin.add_food_css')
+        <style>
+            .div_deg
+            {
+                padding: 10px;
+            }
+        </style>
     </head>
   <body>
     @include('admin.header')
